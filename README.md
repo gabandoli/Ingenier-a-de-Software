@@ -1,2 +1,2 @@
-# grupo_java
-trabajos grupales desarrollo en java
+# grupo_ing_software
+trabajo grupal
