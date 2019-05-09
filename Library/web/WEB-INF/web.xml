@@ -13,6 +13,10 @@
         <servlet-class>cl.duoc.library.servlet.GestionEmpleadosServlet</servlet-class>
     </servlet>
     <servlet>
+        <servlet-name>AgregarEmpleadoServlet</servlet-name>
+        <servlet-class>cl.duoc.library.servlet.AgregarEmpleadoServlet</servlet-class>
+    </servlet>
+    <servlet>
         <servlet-name>GestionLibrosServlet</servlet-name>
         <servlet-class>cl.duoc.library.servlet.GestionLibrosServlet</servlet-class>
     </servlet>
@@ -35,6 +39,10 @@
     <servlet-mapping>
         <servlet-name>GestionEmpleadosServlet</servlet-name>
         <url-pattern>/gestion-empleados</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AgregarEmpleadoServlet</servlet-name>
+        <url-pattern>/agregar-empleado</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>GestionLibrosServlet</servlet-name>

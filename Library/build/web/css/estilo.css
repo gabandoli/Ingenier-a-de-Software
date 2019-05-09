@@ -1,50 +1,12 @@
 body {
     background-image: url(../img/background-library.jpeg);
-    color: #01a9db;
 }
 
-.footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 45px;
-    background-color: #f8f8f8;
-    border-color: #e7e7e7;
-    text-align: center;
-}
-
-/*WRAP INICIO*/
-.wrap-inicio{
-    width: 330px;
-    overflow: hidden;
-    height: 330px;
-    margin: auto;
-    margin-top: 60px;
-    padding: 20px;
-    background: #e7e7e7;
-    border: 1px solid #f8f8f8;
-    border-radius: 30px;
-}
-
-.wrap-inicio .btn-inicio{
-    padding: 5px;
-    width: 290px;
-    height: 70px;
-    background-color: #01a9db;
-    color: white;
-    border-left-width: 10px;
-    border-radius: 15px;
-    border: 0;
-    font-size: 23px;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
-}
-
-.margin-bootom-xs{
-
-    margin-bottom: 10px;
-
-}
-
-.btn-default{
-    text-align: center;
+.jumbotron {
+    display: inline-block;
+    width: 1100px;
+    height: 480px;
+    margin: 20px;
+    background-color: rgba(12, 12, 12, 0.664);
+    color:#ffffff;
 }

@@ -1,6 +1,13 @@
 <%@include file="../master-page/header.jsp" %>
 <%@include file="../master-page/menu.jsp" %>
 
-<h2>¡Bienvenido al sistema de administración y préstamo de libros para la biblioteca Pablo Neruda!</h2>
+<main role="main" class="container">
+  <div class="jumbotron">
+    <h1>Préstamo y Gestión de Libros - Sistema de Bibliotecas</h1>
+    <p class="lead">Bienvenido a nuestro sistema de pago seguro online.
+    Por favor, utilice la opción de pago online para.</p>
+    <a class="btn btn-lg btn-primary" href="${urlLogin}" role="button">Ingresar Ahora &raquo;</a>
+  </div>
+<main role="main" class="container">
 
 <%@include file="../master-page/footer.jsp" %>
