@@ -17,12 +17,28 @@
         <servlet-class>cl.duoc.library.servlet.AgregarEmpleadoServlet</servlet-class>
     </servlet>
     <servlet>
+        <servlet-name>EditarEmpleadoServlet</servlet-name>
+        <servlet-class>cl.duoc.library.servlet.EditarEmpleadoServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>EliminarEmpleadoServlet</servlet-name>
+        <servlet-class>cl.duoc.library.servlet.EliminarEmpleadoServlet</servlet-class>
+    </servlet>
+    <servlet>
         <servlet-name>GestionLibrosServlet</servlet-name>
         <servlet-class>cl.duoc.library.servlet.GestionLibrosServlet</servlet-class>
     </servlet>
     <servlet>
+        <servlet-name>AgregarLibroServlet</servlet-name>
+        <servlet-class>cl.duoc.library.servlet.AgregarLibroServlet</servlet-class>
+    </servlet>
+    <servlet>
         <servlet-name>GestionProfesoresAlumnosServlet</servlet-name>
         <servlet-class>cl.duoc.library.servlet.GestionProfesoresAlumnosServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AgregarProfesorAlumnoServlet</servlet-name>
+        <servlet-class>cl.duoc.library.servlet.AgregarProfesorAlumnoServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>PrestamoServlet</servlet-name>
@@ -45,12 +61,28 @@
         <url-pattern>/agregar-empleado</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
+        <servlet-name>EditarEmpleadoServlet</servlet-name>
+        <url-pattern>/editar-empleado</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>EliminarEmpleadoServlet</servlet-name>
+        <url-pattern>/eliminar-empleado</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
         <servlet-name>GestionLibrosServlet</servlet-name>
         <url-pattern>/gestion-libros</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
+        <servlet-name>AgregarLibroServlet</servlet-name>
+        <url-pattern>/agregar-libro</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
         <servlet-name>GestionProfesoresAlumnosServlet</servlet-name>
         <url-pattern>/gestion-profesores-alumnos</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AgregarProfesorAlumnoServlet</servlet-name>
+        <url-pattern>/agregar-profesor-alumno</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>PrestamoServlet</servlet-name>

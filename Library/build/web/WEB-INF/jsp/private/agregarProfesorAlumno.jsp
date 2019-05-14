@@ -6,7 +6,7 @@
     <div class="jumbotron">
 
 
-        <h1>Agregar Empleado</h1>
+        <h1>Agregar Profesor/Alumno</h1>
         <br>
         <form> 
 
@@ -41,14 +41,7 @@
                     <input name="" class="form-control" placeholder="Apellido Paterno" type="text">
                 </div> <!-- form-group// -->
 
-                <div class="form-group input-group">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text"> <i class="fa fa-user"></i> </span>
-                    </div>
-                    <input name="" class="form-control" placeholder="Apellido Materno" type="text">
-                </div> <!-- form-group// -->
-
-
+                <br></br>
 
                 <div class="form-group">
                     <button id = button-volver type="button" class="btn btn-primary btn-block">Volver</button>
@@ -57,6 +50,13 @@
             </fieldset>
 
             <fieldset class="fieldset2" fieldset style = "width: 500px; margin:  0px auto;">
+
+                <div class="form-group input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"> <i class="fa fa-user"></i> </span>
+                    </div>
+                    <input name="" class="form-control" placeholder="Apellido Materno" type="text">
+                </div> <!-- form-group// -->
 
                 <div class="form-group input-group">
                     <div class="input-group-prepend">
@@ -81,35 +81,19 @@
                         <span class="input-group-text"> <i class="fas fa-user-tie"></i> </span>
                     </div>
                     <select class="form-control">
-                        <option selected="">Seleccione un tipo de usuario</option>
-                        <option>Administrador - Jefe de biblioteca</option>
-                        <option>Empleado - Bibliotecario</option>
+                        <option selected="">Seleccione ocupación</option>
+                        <option>Profesor</option>
+                        <option>Alumno</option>
                     </select>
                 </div> <!-- form-group end.// -->
 
-                <div class="form-group input-group">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
-                    </div>
-                    <input class="form-control" placeholder="Ingrese una contraseña" type="password">
-                </div> <!-- form-group// -->
-
-                <div class="form-group input-group">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
-                    </div>
-                    <input class="form-control" placeholder="Repita contraseña" type="password">
-                </div> <!-- form-group// -->
+                <br></br>
 
                 <div class="form-group">
                     <button type="submit" class="btn btn-primary btn-block">Agregar</button>
                 </div> <!-- form-group// -->
 
             </fieldset>
-
-
-
-
 
         </form>
 

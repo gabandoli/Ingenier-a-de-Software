@@ -36,13 +36,13 @@
                     </a>
                 </li>
                 <li>
-                    <a href="javascript:;">
+                    <a href="${urlEditarEmpleado}">
                         <i class="fas fa-user-edit" aria-hidden="true"></i>
                         Editar Empleado							
                     </a>
                 </li>
                 <li>
-                    <a href="javascript:;">
+                    <a href="${urlEliminarEmpleado}">
                         <i class="fas fa-user-times" aria-hidden="true"></i>
                         Eliminar Empleado							
                     </a>
@@ -63,7 +63,7 @@
             </a>
             <ul>
                 <li>
-                    <a href="javascript:;">
+                    <a href="${urlAgregarLibro}">
                         <i class="fas fa-book-medical" aria-hidden="true"></i>
                         Agregar Libro						
                     </a>
@@ -96,7 +96,7 @@
             </a>
             <ul>
                 <li>
-                    <a href="javascript:;">
+                    <a href="${urlAgregarProfesorAlumno}">
                         <i class="fas fa-user-plus" aria-hidden="true"></i>
                         Agregar Profesor/Alumno						
                     </a>
