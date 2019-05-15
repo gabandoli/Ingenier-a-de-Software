@@ -6,7 +6,7 @@
     <div class="jumbotron">
 
 
-        <h1>Editar Empleado</h1>
+        <h1>Eliminar Profesor/Alumno</h1>
 
 
 

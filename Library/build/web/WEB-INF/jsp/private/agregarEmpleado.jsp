@@ -5,13 +5,12 @@
 <main role="main" class="container">
     <div class="jumbotron">
 
-
         <h1>Agregar Empleado</h1>
         <br>
         <form> 
 
 
-            <fieldset class="fieldset1" fieldset style = "width: 500px; margin:  0px auto;">
+            <fieldset class="fieldset1"  fieldset style = "width: 500px; margin:  0px auto;">
 
                 <div class="form-group input-group">
                     <div class="input-group-prepend">
@@ -48,15 +47,13 @@
                     <input name="" class="form-control" placeholder="Apellido Materno" type="text">
                 </div> <!-- form-group// -->
 
-
-
                 <div class="form-group">
                     <button id = button-volver type="button" class="btn btn-primary btn-block">Volver</button>
                 </div> <!-- form-group// -->
 
             </fieldset>
 
-            <fieldset class="fieldset2" fieldset style = "width: 500px; margin:  0px auto;">
+            <fieldset class="fieldset2" fieldset style = "width: 500px; margin:  0px auto; z-index: 0;">
 
                 <div class="form-group input-group">
                     <div class="input-group-prepend">
@@ -73,7 +70,7 @@
                     <div class="input-group-prepend">
                         <span class="input-group-text"> <i class="fas fa-birthday-cake"> </i> </span>
                     </div>
-                    <input type="date" class="form-control" placeholder="Fecha Nacimiento" type="password">
+                    <input type="date" class="form-control" placeholder="Fecha Nacimiento" type="date">
                 </div> <!-- form-group// -->
 
                 <div class="form-group input-group">
@@ -106,10 +103,6 @@
                 </div> <!-- form-group// -->
 
             </fieldset>
-
-
-
-
 
         </form>
 

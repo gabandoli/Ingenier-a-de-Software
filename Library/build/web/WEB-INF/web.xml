@@ -9,10 +9,6 @@
         <servlet-class>cl.duoc.library.servlet.LoginServlet</servlet-class>
     </servlet>
     <servlet>
-        <servlet-name>GestionEmpleadosServlet</servlet-name>
-        <servlet-class>cl.duoc.library.servlet.GestionEmpleadosServlet</servlet-class>
-    </servlet>
-    <servlet>
         <servlet-name>AgregarEmpleadoServlet</servlet-name>
         <servlet-class>cl.duoc.library.servlet.AgregarEmpleadoServlet</servlet-class>
     </servlet>
@@ -25,20 +21,28 @@
         <servlet-class>cl.duoc.library.servlet.EliminarEmpleadoServlet</servlet-class>
     </servlet>
     <servlet>
-        <servlet-name>GestionLibrosServlet</servlet-name>
-        <servlet-class>cl.duoc.library.servlet.GestionLibrosServlet</servlet-class>
-    </servlet>
-    <servlet>
         <servlet-name>AgregarLibroServlet</servlet-name>
         <servlet-class>cl.duoc.library.servlet.AgregarLibroServlet</servlet-class>
     </servlet>
     <servlet>
-        <servlet-name>GestionProfesoresAlumnosServlet</servlet-name>
-        <servlet-class>cl.duoc.library.servlet.GestionProfesoresAlumnosServlet</servlet-class>
+        <servlet-name>EditarLibroServlet</servlet-name>
+        <servlet-class>cl.duoc.library.servlet.EditarLibroServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>EliminarLibroServlet</servlet-name>
+        <servlet-class>cl.duoc.library.servlet.EliminarLibroServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>AgregarProfesorAlumnoServlet</servlet-name>
         <servlet-class>cl.duoc.library.servlet.AgregarProfesorAlumnoServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>EditarProfesorAlumnoServlet</servlet-name>
+        <servlet-class>cl.duoc.library.servlet.EditarProfesorAlumnoServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>EliminarProfesorAlumnoServlet</servlet-name>
+        <servlet-class>cl.duoc.library.servlet.EliminarProfesorAlumnoServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>PrestamoServlet</servlet-name>
@@ -53,10 +57,6 @@
         <url-pattern>/login</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
-        <servlet-name>GestionEmpleadosServlet</servlet-name>
-        <url-pattern>/gestion-empleados</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
         <servlet-name>AgregarEmpleadoServlet</servlet-name>
         <url-pattern>/agregar-empleado</url-pattern>
     </servlet-mapping>
@@ -69,20 +69,28 @@
         <url-pattern>/eliminar-empleado</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
-        <servlet-name>GestionLibrosServlet</servlet-name>
-        <url-pattern>/gestion-libros</url-pattern>
-    </servlet-mapping>
-    <servlet-mapping>
         <servlet-name>AgregarLibroServlet</servlet-name>
         <url-pattern>/agregar-libro</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
-        <servlet-name>GestionProfesoresAlumnosServlet</servlet-name>
-        <url-pattern>/gestion-profesores-alumnos</url-pattern>
+        <servlet-name>EditarLibroServlet</servlet-name>
+        <url-pattern>/editar-libro</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>EliminarLibroServlet</servlet-name>
+        <url-pattern>/eliminar-libro</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>AgregarProfesorAlumnoServlet</servlet-name>
         <url-pattern>/agregar-profesor-alumno</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>EditarProfesorAlumnoServlet</servlet-name>
+        <url-pattern>/editar-profesor-alumno</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>EliminarProfesorAlumnoServlet</servlet-name>
+        <url-pattern>/eliminar-profesor-alumno</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>PrestamoServlet</servlet-name>

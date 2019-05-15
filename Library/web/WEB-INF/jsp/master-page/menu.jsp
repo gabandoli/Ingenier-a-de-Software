@@ -3,9 +3,9 @@
 <!------ Include the above in your HEAD tag ---------->
 
 <!-- Ace Responsive Menu -->
-<nav>
+<nav style="z-index: 2;">
     <!-- Menu Toggle btn-->
-    <div class="menu-toggle">
+    <div class="menu-toggle" style="z-index: 1;">
         <h3>Menu</h3>
         <button type="button" id="menu-btn">
             <span class="icon-bar"></span>
@@ -15,14 +15,14 @@
     </div>
     <!-- Responsive Menu Structure-->
     <!--Note: declare the Menu style in the data-menu-style="horizontal" (options: horizontal, vertical, accordion) -->
-    <ul id="respMenu" class="ace-responsive-menu" data-menu-style="horizontal">
+    <ul id="respMenu" class="ace-responsive-menu" data-menu-style="horizontal" style="z-index: 67;">
         <li>
             <a href="${urlIndex}">
                 <i class="fa fa-home" aria-hidden="true"></i>
                 <span class="title">Sistema de Bibliotecas</span>
             </a>
         </li>
-        
+
         <li>
             <a href="javascript:;">
                 <i class="fas fa-users" aria-hidden="true"></i>
@@ -69,13 +69,13 @@
                     </a>
                 </li>
                 <li>
-                    <a href="javascript:;">
+                    <a href="${urlEditarLibro}">
                         <i class="fas fa-book-open" aria-hidden="true"></i>
                         Editar Libro							
                     </a>
                 </li>
                 <li>
-                    <a href="javascript:;">
+                    <a href="${urlEliminarLibro}">
                         <i class="fas fa-book-dead" aria-hidden="true"></i>
                         Eliminar Libro							
                     </a>
@@ -102,13 +102,13 @@
                     </a>
                 </li>
                 <li>
-                    <a href="javascript:;">
+                    <a href="${urlEditarProfesorAlumno}">
                         <i class="fas fa-user-edit" aria-hidden="true"></i>
                         Editar Profesor/Alumno							
                     </a>
                 </li>
                 <li>
-                    <a href="javascript:;">
+                    <a href="${urlEliminarProfesorAlumno}">
                         <i class="fas fa-user-times" aria-hidden="true"></i>
                         Eliminar Profesor/Alumno							
                     </a>
@@ -147,21 +147,6 @@
         });
     });
 </script>
-
-
-
-<!--
-<nav class="navbar navbar-default">
-    
-    <a href="${urlIndex}" class="navbar-brand">Biblioteca Pablo Neruda</a>
-
-<ul class="nav navbar-nav">
-    <li><a href="${urlLogin}">Iniciar Sesi�n</a></li>
-    <li><a href="${urlGestionEmpleados}">Gesti�n de empleados</a></li>
-    <li><a href="${urlGestionLibros}">Gesti�n de libros</a></li>
-    <li><a href="${urlGestionProfesoresAlumnos}">Gesti�n de profesores y alumnos</a></li>
-    <li><a href="${urlPrestamo}">Pr�stamo</a></li>
-</ul>
 
 </nav>
 -->

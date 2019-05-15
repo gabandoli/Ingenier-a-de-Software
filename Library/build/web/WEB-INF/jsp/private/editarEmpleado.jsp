@@ -7,7 +7,7 @@
 
 
         <h1>Editar Empleado</h1>
-        
+
 
 
     </div> 
