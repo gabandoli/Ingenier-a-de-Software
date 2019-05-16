@@ -24,7 +24,7 @@
         </li>
 
         <li>
-            <a href="javascript:;">
+            <a href="">
                 <i class="fas fa-users" aria-hidden="true"></i>
                 <span class="title">Gestion Empleados</span>
             </a>
@@ -47,17 +47,11 @@
                         Eliminar Empleado							
                     </a>
                 </li>
-                <li>
-                    <a href="#">
-                        <i class="fas fa-list" aria-hidden="true"></i>
-                        Lista de Empleados
-                    </a>
-                </li>
             </ul>
         </li>
 
         <li>
-            <a href="javascript:;">
+            <a href="">
                 <i class="fas fa-book" aria-hidden="true"></i>
                 <span class="title">Gestion Libros</span>
             </a>
@@ -81,7 +75,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="${urlListarLibros}">
                         <i class="fas fa-list" aria-hidden="true"></i>
                         Lista de Libros
                     </a>
@@ -90,7 +84,7 @@
         </li>
 
         <li>
-            <a href="javascript:;">
+            <a href="">
                 <i class="fas fa-school" aria-hidden="true"></i>
                 <span class="title">Gestion Profesor/Alumno</span>
             </a>
@@ -114,9 +108,9 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="${urlListarProfesoresAlumnos}">
                         <i class="fas fa-list" aria-hidden="true"></i>
-                        Lista de Profesores/Alumnos
+                        Listado de Profesores/Alumnos
                     </a>
                 </li>
             </ul>

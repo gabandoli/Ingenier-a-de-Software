@@ -8,6 +8,15 @@
 
         <h1>Editar Profesor/Alumno</h1>
 
+        <div class="box">
+  			<div class="container-1">
+      		<span class="icon"><i class="fa fa-search"></i></span>
+      		<input type="search" id="buscarEmp" placeholder="Buscar Profesor/Alumno..." />
+  			</div>
+		</div>
+
+    </div> 
+
 
 
     </div> 

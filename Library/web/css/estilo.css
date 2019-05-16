@@ -100,3 +100,55 @@ body {
     text-shadow: 0 2px 2px rgba(0,0,0,0.5);
     color: #FD5025;
 }
+
+.box{
+  margin: 100px auto;
+  width: 300px;
+  height: 50px;
+}
+
+.container-1{
+  width: 300px;
+  vertical-align: middle;
+  white-space: nowrap;
+  position: relative;
+}
+
+.container-1 input#buscarEmp{
+  width: 300px;
+  height: 50px;
+  background: #0C0C0C;
+  border: none;
+  font-size: 15pt;
+  float: left;
+  color: #FD5025;
+  padding-left: 45px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.container-1 input#buscarEmp::-webkit-input-placeholder {
+   color: #FD5025;
+}
+ 
+.container-1 input#buscarEmp:-moz-placeholder { /* Firefox 18- */
+   color: #FD5025;  
+}
+ 
+.container-1 input#buscarEmp::-moz-placeholder {  /* Firefox 19+ */
+   color: #FD5025;  
+}
+ 
+.container-1 input#buscarEmp:-ms-input-placeholder {  
+   color: #FD5025;  
+}
+
+.container-1 .icon{
+  position: absolute;
+  top: 50%;
+  margin-left: 17px;
+  margin-top: 17px;
+  z-index: 1;
+  color: #FD5025;
+}

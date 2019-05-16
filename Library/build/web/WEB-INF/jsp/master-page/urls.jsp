@@ -8,9 +8,11 @@
 <c:url var="urlAgregarLibro"                 	value="/agregar-libro"/>
 <c:url var="urlEditarLibro"                 	value="/editar-libro"/>
 <c:url var="urlEliminarLibro"                 	value="/eliminar-libro"/>
+<c:url var="urlListarLibros"                 	value="/listar-libros"/>
 <c:url var="urlAgregarProfesorAlumno"           value="/agregar-profesor-alumno"/>
 <c:url var="urlEditarProfesorAlumno"           	value="/editar-profesor-alumno"/>
 <c:url var="urlEliminarProfesorAlumno"          value="/eliminar-profesor-alumno"/>
+<c:url var="urlListarProfesoresAlumnos"         value="/listar-profesores-alumnos"/>
 <c:url var="urlPrestamo"                        value="/prestamo"/>
 
 <!--Apariencia-->

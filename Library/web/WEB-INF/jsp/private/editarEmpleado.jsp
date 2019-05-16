@@ -8,7 +8,12 @@
 
         <h1>Editar Empleado</h1>
 
-
+        <div class="box">
+  			<div class="container-1">
+      		<span class="icon"><i class="fa fa-search"></i></span>
+      		<input type="search" id="buscarEmp" placeholder="Buscar Empleado..." />
+  			</div>
+		</div>
 
     </div> 
     <!--container end.//-->

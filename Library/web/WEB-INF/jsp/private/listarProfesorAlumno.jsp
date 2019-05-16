@@ -6,16 +6,7 @@
     <div class="jumbotron">
 
 
-        <h1>Editar Libro</h1>
-
-        <div class="box">
-  			<div class="container-1">
-      		<span class="icon"><i class="fa fa-search"></i></span>
-      		<input type="search" id="buscarEmp" placeholder="Buscar Libro..." />
-  			</div>
-		</div>
-
-    </div> 
+        <h1>Listado de Profesores/Alumnos</h1>
 
 
 

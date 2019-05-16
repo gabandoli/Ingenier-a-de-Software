@@ -33,6 +33,10 @@
         <servlet-class>cl.duoc.library.servlet.EliminarLibroServlet</servlet-class>
     </servlet>
     <servlet>
+        <servlet-name>ListarLibrosServlet</servlet-name>
+        <servlet-class>cl.duoc.library.servlet.ListarLibrosServlet</servlet-class>
+    </servlet>
+    <servlet>
         <servlet-name>AgregarProfesorAlumnoServlet</servlet-name>
         <servlet-class>cl.duoc.library.servlet.AgregarProfesorAlumnoServlet</servlet-class>
     </servlet>
@@ -43,6 +47,10 @@
     <servlet>
         <servlet-name>EliminarProfesorAlumnoServlet</servlet-name>
         <servlet-class>cl.duoc.library.servlet.EliminarProfesorAlumnoServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ListarProfesorAlumnoServlet</servlet-name>
+        <servlet-class>cl.duoc.library.servlet.ListarProfesorAlumnoServlet</servlet-class>
     </servlet>
     <servlet>
         <servlet-name>PrestamoServlet</servlet-name>
@@ -81,6 +89,10 @@
         <url-pattern>/eliminar-libro</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
+        <servlet-name>ListarLibrosServlet</servlet-name>
+        <url-pattern>/listar-libros</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
         <servlet-name>AgregarProfesorAlumnoServlet</servlet-name>
         <url-pattern>/agregar-profesor-alumno</url-pattern>
     </servlet-mapping>
@@ -91,6 +103,10 @@
     <servlet-mapping>
         <servlet-name>EliminarProfesorAlumnoServlet</servlet-name>
         <url-pattern>/eliminar-profesor-alumno</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ListarProfesorAlumnoServlet</servlet-name>
+        <url-pattern>/listar-profesores-alumnos</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>PrestamoServlet</servlet-name>
