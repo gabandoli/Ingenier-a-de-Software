@@ -1,6 +1,8 @@
 <!--URL-->
 <c:url var="urlIndex"                           value="/index" />
 <c:url var="urlLogin"                           value="/login" />
+<c:url var="urlLogout"                  		value="/logout" />
+
 <c:url var="urlAgregarEmpleado"                 value="/agregar-empleado"/>
 <c:url var="urlEditarEmpleado"                  value="/editar-empleado"/>
 <c:url var="urlEliminarEmpleado"                value="/eliminar-empleado"/>

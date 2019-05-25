@@ -9,6 +9,10 @@
         <servlet-class>cl.duoc.library.servlet.LoginServlet</servlet-class>
     </servlet>
     <servlet>
+        <servlet-name>LogoutServlet</servlet-name>
+        <servlet-class>cl.duoc.library.servlet.LogoutServlet</servlet-class>
+    </servlet>
+    <servlet>
         <servlet-name>AgregarEmpleadoServlet</servlet-name>
         <servlet-class>cl.duoc.library.servlet.AgregarEmpleadoServlet</servlet-class>
     </servlet>
@@ -63,6 +67,10 @@
     <servlet-mapping>
         <servlet-name>LoginServlet</servlet-name>
         <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LogoutServlet</servlet-name>
+        <url-pattern>/logout</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>AgregarEmpleadoServlet</servlet-name>

@@ -5,13 +5,15 @@
     <div class="jumbotron">
         <div class="container">
 
-            <form class="form-login">
+            <form class="form-login" action="${urlLogin}" method="POST">
+                
                 <h1>Iniciar Sesión</h1>
                 <br>
-                <input type="text" class="form-control" placeholder="Usuario" required="" autofocus="">
-                <input type="password" class="form-control" placeholder="Contraseña" required="">
+                <input type="text" class="form-control" name="inputUser" placeholder="Usuario" required="" autofocus="">
+                <input type="password" class="form-control" name="inputPass" placeholder="Contraseña" required="">
 
-                <button class="btn btn-lg btn-primary btn-block" type="submit">Ingresar</button>
+                <button class="btn btn-lg btn-primary btn-block" name="submit" type="submit">Ingresar</button>
+
             </form>
 
         </div>
