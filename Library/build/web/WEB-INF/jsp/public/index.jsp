@@ -8,7 +8,12 @@
 
         <c:choose>
             <c:when test="${autenticado}">
-
+                    
+                <h1>¡Bienvenido!</h1>
+                <br>
+                <p class="lead">Ha validado su credencial de acceso exitosamente. Por favor, para comenzar
+                    a utilizar nuestra aplicación, dirijase al menú ubicado en la parte superior de la pantalla.</p>
+                
             </c:when>
             <c:otherwise>
             
