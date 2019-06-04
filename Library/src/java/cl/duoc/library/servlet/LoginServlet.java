@@ -36,13 +36,15 @@ public class LoginServlet extends HttpServlet {
             HttpSession session = req.getSession();
             session.setAttribute("usuario", "Administrador");  
             session.setAttribute("autenticado", true);
+            resp.sendRedirect("index");
             
         } else {
             
             req.setAttribute("error", "El usuario: " + usuario + " no se encuentra en el sistema");
+            resp.sendRedirect("login");
             
         }
-        resp.sendRedirect("login");
+        
     }
 
 }
