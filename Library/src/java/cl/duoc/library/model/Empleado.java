@@ -21,6 +21,7 @@ public class Empleado {
     private String apellidoMaterno;
     private Integer telefono;
     private Date fechaNacimiento;
+    private String tipo;
     private String pass;
 
     public Empleado() {
@@ -81,7 +82,15 @@ public class Empleado {
     public void setFechaNacimiento(Date fechaNacimiento) {
         this.fechaNacimiento = fechaNacimiento;
     }
+    
+    public String getTipo() {
+        return tipo;
+    }
 
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+    
     public String getPass() {
         return pass;
     }
@@ -92,8 +101,8 @@ public class Empleado {
 
     @Override
     public int hashCode() {
-        int hash = 7;
-        hash = 97 * hash + Objects.hashCode(this.run);
+        int hash = 5;
+        hash = 59 * hash + Objects.hashCode(this.run);
         return hash;
     }
 
@@ -117,8 +126,9 @@ public class Empleado {
 
     @Override
     public String toString() {
-        return "Empleado{" + "run=" + run + ", email=" + email + ", nombres=" + nombres + ", apellidoPaterno=" + apellidoPaterno + ", apellidoMaterno=" + apellidoMaterno + ", telefono=" + telefono + ", fechaNacimiento=" + fechaNacimiento + ", pass=" + pass + '}';
+        return "Empleado{" + "run=" + run + ", email=" + email + ", nombres=" + nombres + ", apellidoPaterno=" + apellidoPaterno + ", apellidoMaterno=" + apellidoMaterno + ", telefono=" + telefono + ", fechaNacimiento=" + fechaNacimiento + ", tipo=" + tipo + ", pass=" + pass + '}';
     }
+
     
     
     

@@ -5,7 +5,12 @@
  */
 package cl.duoc.library.servlet;
 
+import cl.duoc.library.dao.ConexionManager;
+import cl.duoc.library.dao.EmpleadoDAO;
+import cl.duoc.library.dao.impl.EmpleadoDAOJdbcImpl;
+import cl.duoc.library.model.Empleado;
 import java.io.IOException;
+import java.sql.Connection;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -21,6 +26,21 @@ public class AgregarEmpleadoServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.getRequestDispatcher("/WEB-INF/jsp/private/agregarEmpleado.jsp").forward(request, response);
     }
-
     
+    @Override
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        Empleado empleado = new Empleado();
+        Connection connection = ConexionManager.getInstance().getConexion();
+        EmpleadoDAO dao = new EmpleadoDAOJdbcImpl(connection);
+        
+        empleado.setRun(req.getParameter("txtRun"));
+        empleado.setEmail(req.getParameter("txtEmail"));
+        empleado.setNombres(req.getParameter("txtNombres"));
+        empleado.setApellidoPaterno(req.getParameter("txtAPaterno"));
+        empleado.setApellidoMaterno(req.getParameter("txtAMaterno"));
+        empleado.setTelefono(Integer.parseInt(req.getParameter("txtTelefono")));
+        empleado.setTipo(req.getParameter("txtTipo"));
+        empleado.setPass(req.getParameter("txtPass"));
+
+    }
 }

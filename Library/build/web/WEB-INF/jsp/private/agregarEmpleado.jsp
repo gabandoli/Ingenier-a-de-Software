@@ -16,35 +16,35 @@
                     <div class="input-group-prepend">
                         <span class="input-group-text"> <i class="fas fa-id-card"></i> </span>
                     </div>
-                    <input name="" class="form-control" placeholder="Run" type="text">
+                    <input name="txtRun" class="form-control" placeholder="Run" type="text">
                 </div> <!-- form-group// -->
 
                 <div class="form-group input-group">
                     <div class="input-group-prepend">
                         <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
                     </div>
-                    <input name="" class="form-control" placeholder="Correo Electrónico" type="email">
+                    <input name="txtEmail" class="form-control" placeholder="Correo Electrónico" type="email">
                 </div> <!-- form-group// -->
 
                 <div class="form-group input-group">
                     <div class="input-group-prepend">
                         <span class="input-group-text"> <i class="fa fa-user"></i> </span>
                     </div>
-                    <input name="" class="form-control" placeholder="Nombres" type="text">
+                    <input name="txtNombres" class="form-control" placeholder="Nombres" type="text">
                 </div> <!-- form-group// -->
 
                 <div class="form-group input-group">
                     <div class="input-group-prepend">
                         <span class="input-group-text"> <i class="fa fa-user"></i> </span>
                     </div>
-                    <input name="" class="form-control" placeholder="Apellido Paterno" type="text">
+                    <input name="txtAPaterno" class="form-control" placeholder="Apellido Paterno" type="text">
                 </div> <!-- form-group// -->
 
                 <div class="form-group input-group">
                     <div class="input-group-prepend">
                         <span class="input-group-text"> <i class="fa fa-user"></i> </span>
                     </div>
-                    <input name="" class="form-control" placeholder="Apellido Materno" type="text">
+                    <input name="txtAMaterno" class="form-control" placeholder="Apellido Materno" type="text">
                 </div> <!-- form-group// -->
 
                 <div class="form-group">
@@ -59,11 +59,7 @@
                     <div class="input-group-prepend">
                         <span class="input-group-text"> <i class="fa fa-phone"></i> </span>
                     </div>
-                    <select class="custom-select" style="max-width: 120px;">
-                        <option selected="">+56</option>
-                        <option value="1">+56</option>
-                    </select>
-                    <input name="" class="form-control" placeholder="Número Telefónico" type="text">
+                    <input name="txtTelefono" class="form-control" placeholder="Número Telefónico" type="number">
                 </div> <!-- form-group// -->
 
                 <div class="form-group input-group">
@@ -88,14 +84,14 @@
                     <div class="input-group-prepend">
                         <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
                     </div>
-                    <input class="form-control" placeholder="Ingrese una contraseña" type="password">
+                    <input name="txtPass" class="form-control" placeholder="Ingrese una contraseña" type="password">
                 </div> <!-- form-group// -->
 
                 <div class="form-group input-group">
                     <div class="input-group-prepend">
                         <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
                     </div>
-                    <input class="form-control" placeholder="Repita contraseña" type="password">
+                    <input name="txtPass" class="form-control" placeholder="Repita contraseña" type="password">
                 </div> <!-- form-group// -->
 
                 <div class="form-group">
