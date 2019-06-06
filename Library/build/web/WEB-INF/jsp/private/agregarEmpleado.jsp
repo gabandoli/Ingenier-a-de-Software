@@ -66,14 +66,14 @@
                     <div class="input-group-prepend">
                         <span class="input-group-text"> <i class="fas fa-birthday-cake"> </i> </span>
                     </div>
-                    <input type="date" class="form-control" placeholder="Fecha Nacimiento" type="date">
+                    <input name="txtDate" class="form-control" placeholder="Fecha Nacimiento" type="date">
                 </div> <!-- form-group// -->
 
                 <div class="form-group input-group">
                     <div class="input-group-prepend">
                         <span class="input-group-text"> <i class="fas fa-user-tie"></i> </span>
                     </div>
-                    <select class="form-control">
+                    <select name="txtTipo" class="form-control">
                         <option selected="">Seleccione un tipo de usuario</option>
                         <option>Administrador - Jefe de biblioteca</option>
                         <option>Empleado - Bibliotecario</option>

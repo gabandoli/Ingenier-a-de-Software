@@ -51,6 +51,7 @@ public class EmpleadoDAOJdbcImpl implements EmpleadoDAO{
             preparedStatement.setString (4, elemento.getApellidoPaterno());
             preparedStatement.setString (4, elemento.getApellidoMaterno());
             preparedStatement.setInt    (5, elemento.getTelefono());
+            preparedStatement.setDate   (6, elemento.getFechaNacimiento());
             preparedStatement.setString (7, elemento.getTipo());
             preparedStatement.setString (8, elemento.getPass());
             
