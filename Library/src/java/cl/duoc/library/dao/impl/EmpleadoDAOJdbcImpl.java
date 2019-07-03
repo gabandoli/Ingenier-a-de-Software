@@ -49,11 +49,11 @@ public class EmpleadoDAOJdbcImpl implements EmpleadoDAO{
             preparedStatement.setString (2, elemento.getEmail());
             preparedStatement.setString (3, elemento.getNombres());
             preparedStatement.setString (4, elemento.getApellidoPaterno());
-            preparedStatement.setString (4, elemento.getApellidoMaterno());
-            preparedStatement.setInt    (5, elemento.getTelefono());
-            preparedStatement.setDate   (6, elemento.getFechaNacimiento());
-            preparedStatement.setString (7, elemento.getTipo());
-            preparedStatement.setString (8, elemento.getPass());
+            preparedStatement.setString (5, elemento.getApellidoMaterno());
+            preparedStatement.setInt    (6, elemento.getTelefono());
+            preparedStatement.setDate   (7, elemento.getFechaNacimiento());
+            preparedStatement.setString (8, elemento.getTipo());
+            preparedStatement.setString (9, elemento.getPass());
             
             preparedStatement.execute();
             preparedStatement.close();
